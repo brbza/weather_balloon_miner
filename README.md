@@ -52,7 +52,7 @@ where options are used to select the desired statistics per observatory to displ
 - -n: number of observations
 - -d: total flight distance
 
-If no optios are supplied, all statistics are printed.
+If no options are supplied, all statistics are printed.
 
 ### Normalize Temperature and Distance Units of Observations
 
@@ -63,10 +63,10 @@ ruby normalize_observations.rb weather_balloon_data_file normalized_output_file 
 ```
 
 where options are used to select the desired output units, as:
-- -d: distance unit [ kelvin | celsius | fahrenheit ]
-- -t: temperature unit [ meters | kilometers | miles ]
+- -d: distance unit [ meters | kilometers | miles ]
+- -t: temperature unit [ kelvin | celsius | fahrenheit ]
 
-If no optios are supplied, defaults are kevin and meters.
+If no options are supplied, defaults are kevin and meters.
 
 ## Additional files on the repository
 
